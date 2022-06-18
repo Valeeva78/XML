@@ -1,1 +1,30 @@
-
+<?xml version="1.0"?>
+<root>
+	<Bug>1</Bug>
+	<Project>WEB страничка Lorem</Project>
+	<Issue_Type>Bag</Issue_Type>
+	<Summary>В header в кнопке 'Услуги' не раскрывается список Select</Summary>
+	<Version>1</Version>
+	<Component>Web-приложения</Component>
+	<Severity>Major</Severity>
+	<Priority>P2</Priority>
+	<Reproducibility>100%</Reproducibility>
+	<Description>
+		<item0>Build1</item0>
+		<item1>PC Windows 10</item1>
+		<item2>Chrome версия 93.0.4577.63</item2>
+	</Description>
+	<Preconditions>
+		<item0>1. открыть web-страницу Lorem в браузере</item0>
+		<item1>2. найти блок 'Как мы поможем Вам поможем?'</item1>
+		<item2>3. найти галерею блоков услуг</item2>
+	</Preconditions><Шаги_воспроизведения>
+	<item0>1. нажать кнопку 'Узнать больше' в одном из блоков</item0>
+	<item1>2. обратить внимание, что не появляется информация для этого блока</item1>
+	<item2>3. при нажатии кнопки, страница сайта перескакивает в блок 'Мы создаем отличные приложения с PWA'</item2>
+</Шаги_воспроизведения>
+<Actual_result>В кнопке 'Узнать больш' не открывается информация для блока услуг</Actual_result>
+<Expected_Result>В кнопке 'Узнать больше' открывается информация для блока услуг</Expected_Result>
+<Attacment/>
+<Logs/>
+<Assign>programmer</Assign>undefined</root>
