@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<root>
+        <name>Valeeva Svetlana</name>
+        <age>40</age>
+        <home_pet>
+                <pet>cat</pet>
+                <name>Sima</name>
+        </home_pet>
+        <salary>1000 $</salary>
+</root>
